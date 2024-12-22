@@ -1,3 +1,5 @@
+The issue can occur on Windows 11 due to file or folder permission problems, corruption in the user profile, or interference from system settings. Here are some steps to troubleshoot and resolve the issue:
+
 ## Option 1: Verify Ownership and Permissions
 Right-click the "Documents" folder, select Properties, then go to the Security tab.
 
@@ -13,8 +15,6 @@ Back in the Security tab, select your account name.
 Click Edit, ensure Full Control is checked, and click Apply.
 
 ## Option 2: Reset Folder Permissions
-
-The issue can occur on Windows 11 due to file or folder permission problems, corruption in the user profile, or interference from system settings. Here are some steps to troubleshoot and resolve the issue:
 
 Run a command in PowerShell to reset permissions for the Documents folder:
 
